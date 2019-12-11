@@ -1,0 +1,50 @@
+// what are variables and data types.
+Variable means anything that can vary. JavaScript includes variables which hold the data value and it can be changed anytime. JavaScript uses reserved keyword var to declare a variable. You can assign a value to a variable using equal to (=) operator when you declare it or before using it.
+Data Types: 1.String 2.Number 3.Boolean 4.undefined 5.Null
+these five are called primitives data types.
+
+// Variable Mutation and Type Coercion
+Variable Mutation: When you mutate a variable you are modifying the original value.
+Type coercion: Its mean JS will convert number to string when required
+
+// basic operators
++	Addition
+-	Subtraction
+*	Multiplication
+**	Exponentiation (ES2016)
+/	Division
+%	Modulus (Division Remainder)
+++	Increment
+--	Decrement
+
+// if else statement 
+the if/else statement executes a block of code if a specified condition is true. If the condition is false, another block of code can be executed. The if/else statement is a part of JavaScript's "Conditional" Statements.
+
+// the ternary operator
+it means in one line we can define an if else statement but in ternary operator only one statement can be executed like this 
+age > 13 ? 'a' : 'b'
+
+// functions
+function is a JS procedure or set  of statement which performs a task and function must be define it somewhere in the scope from where we can call it.
+
+// function statement and expressions
+the function statement declares a function. A declared function is saved for later use, and will be executed later, when it is called. In JavaScript, functions are objects, and they have both properties and methods.
+A function expression can be stored in a variable: var x = function (a, b) {return a * b}; After a function expression has been stored in a variable, the variable can be used as a function. ... They are always invoked (called) using the variable name
+
+// arrays
+array is a single variable that is used to store different elements. It is often used when we want to store list of elements and access them by a single variable
+
+// objects and properties
+JavaScript is designed on a simple object-based paradigm. An object is a collection of properties, and a property is an association between a name (or key) and a value. A property's value can be a function, in which case the property is known as a method
+
+// objects and methods
+Methods are actions that can be performed on objects. Object properties can be both primitive values, other objects, and functions. An object method is an object property containing a function definition. JavaScript objects are containers for named values, called properties and methods
+
+// hoisting
+Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution. Inevitably, this means that no matter where functions and variables are declared, they are moved to the top of their scope regardless of whether their scope is global or local.
+
+// Execution Phases 
+All JavaScript code executes in what is called an execution context. The execution context is comprised of two phases: the creation phase and the execution phase. During the first phase — the creation phase — the JavaScript interpreter places variables and functions into memory space.
+
+// the 'this' keyword
+What is “this” keyword in JavaScript. this keyword refers to an object, that object which is executing the current bit of javascript code. In other words, every javascript function while executing has a reference to its current execution context, called this.
