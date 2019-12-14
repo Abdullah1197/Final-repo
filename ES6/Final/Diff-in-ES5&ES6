@@ -1,0 +1,12 @@
+In ES5,the variables deleared with var can access the variables within the function.
+In ES5, when we console.log the variables which is not deleare it then we will have undifined 
+In ES5, when we deleared i to 23 and than add a for loop and than we print the values of for loop than we will have the values from 0 44 but the value of i now is 5 becaues it is increased to 5 than we print the value of i outside the for loop than we will have i = 5 because it is now 5 not 23. Because the value of i is ove wriiten to the for loop.
+In ES5, when we deleared i to 23 and than add a for loop and than we print the values of for loop than we will have the values from 0 44 but the value of i now is 5 becaues it is increased to 5 than we print the value of i outside the for loop than we will have i = 5 because it is now 5 not 23. Because the value of i is ove wriiten to the for loop.
+
+In ES6, the variables deleared with let and const are not function scoped but blocked scope.
+so what is block scoped? Ans: block is simply all the code that is raped between any braces
+we can deleare let ouside the block scope and can define inside the block scope.
+but we can not deleare const outside the block scope and define inside the block scope but we can deleare and define out side the block scope like bellow.
+In ES6, we can not use the variables before it was deleared it gives an error.this happens bcz of temperal dead zone.
+It means we can not access the variables before its declearation
+In ES6, when we deleared i to 23 then we add a for loop and than we deleare i to 0 so they both are the different one when we console.log the for loop we will get the values from 0 to 4 as we want but when we consol.log i outside the foor loop we will have the same value as we define in the start like 23.
